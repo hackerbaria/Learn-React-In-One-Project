@@ -1,0 +1,31 @@
+.person-detail-container {
+    padding: 2rem;
+  }
+  
+  .back-button {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #2196f3;
+  }
+  
+  .person-header {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .person-img {
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .person-info {
+    flex: 1;
+  }
+  
+  .biography {
+    margin-top: 2rem;
+  }
+  

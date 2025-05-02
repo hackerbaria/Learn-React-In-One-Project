@@ -1,0 +1,93 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Brand Logo / Title */
+.navbar-brand a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Links Container */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* Individual Link Styling */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding: 0.5rem;
+  transition: background 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #222;
+  border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Dropdown Content Hidden by Default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: #222;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 999;
+  flex-direction: column;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Individual Genre Links */
+.dropdown-item {
+  color: white;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #333;
+}
+
+/* Optional: Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}

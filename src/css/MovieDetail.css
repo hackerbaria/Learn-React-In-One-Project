@@ -1,0 +1,54 @@
+.movie-detail-container {
+    padding: 1rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .back-button {
+    margin-bottom: 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .movie-header {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .poster {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .trailer iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .cast-grid,
+  .similar-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    margin-top: 1rem;
+  }
+  
+  .cast-card, .similar-card {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cast-card img, .similar-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
