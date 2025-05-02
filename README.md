@@ -1,4 +1,15 @@
+![image](https://github.com/user-attachments/assets/99b2b857-759e-475c-af82-7efcac222bfe)
+
+![image](https://github.com/user-attachments/assets/b11b6398-beb0-434f-9131-b718b46f3522)
+
+![image](https://github.com/user-attachments/assets/cef14b31-d1fb-4278-9916-077e5f38988e)
+
+
+
 # My Movie App
+
+you can watch the demo at: https://learn-react-in-one-project-xi.vercel.app/
+
 
 A React-based web application to search and view popular movies. This app allows users to search movies by name, view popular movies, and explore different genres.
 
